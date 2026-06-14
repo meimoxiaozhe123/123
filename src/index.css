@@ -1,0 +1,31 @@
+:root {
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', system-ui, sans-serif;
+  line-height: 1.5;
+  color: #3f3122;
+  background-color: #e8decb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 20%, #f2e6ce 0%, #eadcc1 38%, #d6c4a3 100%);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
